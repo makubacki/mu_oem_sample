@@ -11,6 +11,8 @@
 # SPDX-License-Identifier: BSD-2-Clause-Patent
 ##
 
+# Change the file
+
 resources:
   repositories:
     - repository: mu_devops
