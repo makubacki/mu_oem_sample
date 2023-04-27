@@ -49,9 +49,6 @@
 #define MAX_MSG_SIZE_CAPTION  100
 #define MAX_MSG_SIZE_WARNING  200
 
-// Add compile error and verify build log is uploaded
-asdfjkl;
-
 #pragma pack(1)
 ///
 /// HII specific Vendor Device Path definition.
