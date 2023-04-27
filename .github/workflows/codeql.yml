@@ -160,7 +160,7 @@ jobs:
       with:
         name: ${{ matrix.package }}-Setup-Log
         path: |
-          SETUPLOG.txt
+          **/SETUPLOG.txt
         retention-days: 3
         if-no-files-found: ignore
 
@@ -174,7 +174,7 @@ jobs:
       with:
         name: ${{ matrix.package }}-CiSetup-Log
         path: |
-          CISETUP.txt
+          **/CISETUP.txt
         retention-days: 3
         if-no-files-found: ignore
 
@@ -187,7 +187,7 @@ jobs:
       with:
         name: ${{ matrix.package }}-Update-Log
         path: |
-          UPDATE_LOG.txt
+          **/UPDATE_LOG.txt
         retention-days: 3
         if-no-files-found: ignore
 
@@ -279,10 +279,10 @@ jobs:
         path: |
           **/BUILD_REPORT.TXT
           **/OVERRIDELOG.TXT
-          BUILDLOG_*.md
-          BUILDLOG_*.txt
-          CI_*.md
-          CI_*.txt
+          **/BUILDLOG_*.md
+          **/BUILDLOG_*.txt
+          **/CI_*.md
+          **/CI_*.txt
         retention-days: 7
         if-no-files-found: ignore
 
