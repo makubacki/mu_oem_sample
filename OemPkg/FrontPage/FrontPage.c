@@ -62,6 +62,8 @@
 
 #define FP_OSK_WIDTH_PERCENT  75            // On-screen keyboard is 75% the width of the screen.
 
+// Test comment
+
 UINTN       mCallbackKey;
 EFI_HANDLE  mImageHandle;
 
